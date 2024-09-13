@@ -40,15 +40,3 @@ async function fetchData() {
     }
 }
 
-
-
-
-
-
-
-
-
- //if (nameElement) nameElement.textContent = `Name: ${pokemonNameDisplay}`;
-// if (typesElement) typesElement.textContent = `Types: ${pokemonTypes}`;
-// if (abilitiesElement) abilitiesElement.textContent = `Abilities: ${pokemonAbilities}`;
-// if (statsElement) statsElement.textContent = `Stats: ${pokemonStats}`;
