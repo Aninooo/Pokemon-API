@@ -4,7 +4,7 @@ async function fetchData() {
         const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
 
         if (!response.ok) {
-            throw new Error("Could not fetch resource");
+            throw new Error("Pokémon not found. Please check the name and try again.");
         }
 
         const data = await response.json();
@@ -35,6 +35,7 @@ async function fetchData() {
         document.getElementById("pokemonStats").innerHTML = `<b>Stats: </b> ${pokemonStats}`;
 
     } catch (error) {
+        alert(error.message);
         console.log(error);
     }
 }
