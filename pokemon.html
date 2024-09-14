@@ -3,15 +3,18 @@
 <head>
     <title>Pokémon Fetcher</title>
     <link href="https://fonts.cdnfonts.com/css/nintendo-ds-bios" rel="stylesheet">
-    <link rel="stylesheet" href="pokemon-seeklogo.ai">
+    <link rel="stylesheet" href="pokemon-logo-png-1446.png">
     <link rel="stylesheet" href="/pokemon.css">
 </head>
 <body>
+  <header>
+    <img class="logo" src="/pokemon-logo-png-1446.png" alt="Logo">
+  </header>
     <input type="text" id="pokemonName" placeholder="Enter Pokémon name">
     <button onclick="fetchData()">Fetch Pokémon</button>
     <br>
 
-    <img src="" alt="Pokémon sprite" id="pokemonSprite" style="display: none;">
+    <img class="pokemon" src="" alt="Pokémon sprite" id="pokemonSprite" style="display: none;">
 
   <div id="pokemonNameDisplay">Name</div>
   <div id="pokemonTypes">Pokemon Type</div>

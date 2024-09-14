@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/nintendo-ds-bios');
+@import url('https://fonts.cdnfonts.com/css/pokemon-hollow');
 * {
     margin: 0;
     padding: 0;
@@ -44,17 +44,20 @@ button:hover {
     background-color: #adaf19;
 }
 
-img {
+.pokemon {
+  
     margin-top: 20px;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     object-fit: contain;
-    border: 2px solid #ddd;
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
     justify-content: center;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     
 }
 
@@ -80,4 +83,9 @@ div h3 {
 div p {
     font-size: 16px;
     color: #666;
+}
+.logo{
+ width: 100px;
+ height: 100px;
+ padding-bottom: 10px;
 }
